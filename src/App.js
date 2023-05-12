@@ -1,11 +1,12 @@
-import Router from './shared/Router';
-import GlobalStyle from "../src/components/GlobalStyle"
+import Router from "./shared/Router";
+import GlobalStyle from "../src/components/GlobalStyle";
 
 function App() {
   return (
-    <GlobalStyle>
-      <Router/>
-    </GlobalStyle>
+    <>
+      <GlobalStyle />
+      <Router />
+    </>
   );
 }
 export default App;
