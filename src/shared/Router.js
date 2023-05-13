@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer"
 import Main from "../pages/Main"
 import Login from "../pages/Login"
+import Test from "../pages/Test"
 
 const Router = () => {
   return (
@@ -12,7 +13,8 @@ const Router = () => {
         <Header></Header>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/Login" element={<Login />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/test" element={<Test />} />
         </Routes>
         <Footer></Footer>
 
