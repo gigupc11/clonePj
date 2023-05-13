@@ -3,8 +3,12 @@ import WherebnbLogo from "../assets/WherebnbLogo.png";
 import { AiOutlineBell, AiOutlineMenu } from "react-icons/ai";
 import { FaSearch } from "react-icons/fa";
 import { styled } from "styled-components";
+import SearchButton from "./SearchButton";
+
 function Header(props) {
-  return (
+    return (
+    <>
+    <SearchButton>
     <Stheader>
       <img src={WherebnbLogo} alt="" width={100} />
       <StSidebarBtn>당신의 공간을 웨어비앤비하세요</StSidebarBtn>
@@ -26,6 +30,9 @@ function Header(props) {
       </StEtcBtn>
       </StTextbox>
     </Stheader>
+
+    </SearchButton>
+    </>
   );
 }
 
